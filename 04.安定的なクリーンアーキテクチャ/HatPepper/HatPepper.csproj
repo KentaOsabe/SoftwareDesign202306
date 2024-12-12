@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net48</TargetFramework>
+    <LangVersion>latest</LangVersion>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\HatPepper.Infrastructure.Api\HatPepper.Infrastructure.Api.csproj" />
+    <ProjectReference Include="..\HatPepper.Infrastructure.Location\HatPepper.Infrastructure.Location.csproj" />
+    <ProjectReference Include="..\HatPepper.Infrastructure.Time\HatPepper.Infrastructure.Time.csproj" />
+    <ProjectReference Include="..\HatPepper.Presentation\HatPepper.Presentation.csproj" />
+    <ProjectReference Include="..\HatPepper.UseCase\HatPepper.UseCase.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="System.Device" />
+  </ItemGroup>
+
+</Project>
